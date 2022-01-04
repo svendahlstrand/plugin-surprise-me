@@ -1,0 +1,8 @@
+{
+  "version": "0.5.0",
+  "title": "Surprise me!",
+  "description": "Amuse your visitors by taking them to a totally random post on your blog.",
+  "includes": [
+    "surprise-me-head.html"
+  ]
+}

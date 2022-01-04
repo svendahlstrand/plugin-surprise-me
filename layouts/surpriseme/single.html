@@ -1,0 +1,24 @@
+{{ define "main" }}
+  {{ .Content }}
+
+  {{ $.Scratch.Set "index" 0 }}
+  {{ range (shuffle (where .Site.Pages "Type" "post")) }}
+    {{ $.Scratch.Set "index" (add ($.Scratch.Get "index") 1) }}
+    <a href="{{ .Permalink }}" class="surprise-me-link">{{ $.Scratch.Get "index" }}</a>
+  {{ end }}
+
+  <script>
+    const redirect = (url) => window.location = shuffle(links)[0].href;
+    const links = [...document.querySelectorAll('.surprise-me-link')];
+    const shuffle = (array) => {
+      for (let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+
+      return array;
+    };
+
+    redirect(shuffle(links)[0].href);
+  </script>
+{{ end }}

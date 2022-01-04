@@ -1,0 +1,13 @@
+{{ if eq .Type "surpriseme" }}
+  <meta name="robots" content="noindex" />
+
+  <style>
+    html.preparing-surprise {
+      visibility: hidden;
+    }
+  </style>
+
+  <script>
+    document.documentElement.classList.add('preparing-surprise');
+  </script>
+{{ end }}
