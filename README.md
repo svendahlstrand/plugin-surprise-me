@@ -10,7 +10,7 @@ To get updates on this plug-in, [follow @sod on Micro.blog](https://micro.blog/s
 
 ## Bells and whistles
 
-* 🪄 Magical address at `/surprise-me/`. (Like http://ada.micro.blog/surprise-me/.)
+* 🪄 Magical address at `/surprise-me/`. (Like https://dahlstrand.net/surprise-me/.)
 * 🎲 Every visit to the magical address redirects to a new random post.
 * 💪 Flexible! Link to the magical address from anywhere: the footer, your main menu, or another website.
 * 🎁 More to come! Tell me your wishes.
@@ -37,7 +37,7 @@ https://github.com/svendahlstrand/plugin-surprise-me
 
 ### Make sure the plug-in works and start linking
 
-Your blog should now have a magical address at `/surprise-me/`. So, for example, if your blog is at http://ada.micro.blog/, the magical address is http://ada.micro.blog/surprise-me/.
+Your blog should now have a magical address at `/surprise-me/`. So, for example, if your blog is at https://dahlstrand.net/, the magical address is https://dahlstrand.net/surprise-me/.
 
 1. Make sure surfing to `/surprise-me/` redirects you to a random blog post.
 2. Start linking to the magic address! You can put it anywhere a link goes: in a blog post, in your footer or menu. Or from a completely different website.
