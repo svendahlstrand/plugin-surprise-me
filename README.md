@@ -10,7 +10,7 @@ To get updates on this plug-in, [follow @sod on Micro.blog](https://micro.blog/s
 
 ## Bells and whistles
 
-* 🪄 Magical address at `/surprise-me/`. (Like https://dahlstrand.net/surprise-me/.)
+* 🪄 Magical address at `/surprise-me/`. (Like http://ada.micro.blog/surprise-me/.)
 * 🎲 Every visit to the magical address redirects to a new random post.
 * 💪 Flexible! Link to the magical address from anywhere: the footer, your main menu, or another website.
 * 🎁 More to come! Tell me your wishes.
