@@ -8,16 +8,9 @@
   {{ end }}
 
   <script>
+    const sample = (array) => array[Math.floor(Math.random() * array.length)];
     const links = [...document.querySelectorAll('.surprise-me-link')];
-    const shuffle = (array) => {
-      for (let i = array.length - 1; i > 0; i--) {
-        let j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-      }
 
-      return array;
-    };
-
-    window.location = shuffle(links)[0].href;
+    window.location = sample(links).href;
   </script>
 {{ end }}
