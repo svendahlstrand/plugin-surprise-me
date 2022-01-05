@@ -17,21 +17,14 @@ To get updates on this plug-in, [follow @sod on Micro.blog](https://micro.blog/s
 
 ## Get started
 
-Hey, fellow microblogger! 👋 The installation will be a lot easier in the future. So bear with me for now.
+Hello, fellow microblogger! 👋 Thanks for being here. This plug-in is available in the official directory, so the installation process is quick and easy.
 
 ### Install the plug-in
 
-1. Sign in to https://micro.blog in your favorite browser.
-
-2. [Follow this link](https://micro.blog/account/themes/new?plugin=1) or manually go to *Design* → *Edit Custom Themes* and press *New Plug-in*.
-3. Enter a fitting *Title* (like Surprise me!).
-4. Paste the following into *Clone URL*:
-```
-https://github.com/svendahlstrand/plugin-surprise-me
-```
-5. Choose which *Site* you want to install the plug-in.
-6. Press *Add Plug-in*
-7. Congratulations, the plug-in is installed.
+1. Find [Surprise me! in the plug-in directory](https://micro.blog/account/plugins/view/39).
+2. Choose the *Site* you want to install the plug-in to.
+3. Press *Install*.
+4. Congratulations, the plug-in is installed.
 
 ### Make sure the plug-in works and start linking
 
