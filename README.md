@@ -22,7 +22,7 @@ Hello, fellow microblogger! 👋 Thanks for being here. This plug-in is availabl
 ### Install the plug-in
 
 1. Find [Surprise me! in the plug-in directory](https://micro.blog/account/plugins/view/39).
-2. Choose the *Site* you want to install the plug-in to.
+2. Choose the Site you want to install the plug-in to.
 3. Press *Install*.
 4. Congratulations, the plug-in is installed.
 
