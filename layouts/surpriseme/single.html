@@ -8,7 +8,6 @@
   {{ end }}
 
   <script>
-    const redirect = (url) => window.location = shuffle(links)[0].href;
     const links = [...document.querySelectorAll('.surprise-me-link')];
     const shuffle = (array) => {
       for (let i = array.length - 1; i > 0; i--) {
@@ -19,6 +18,6 @@
       return array;
     };
 
-    redirect(shuffle(links)[0].href);
+    window.location = shuffle(links)[0].href;
   </script>
 {{ end }}
