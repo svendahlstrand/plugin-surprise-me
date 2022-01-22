@@ -2,7 +2,7 @@
 
 Amuse your visitors by taking them to a totally random post on your Micro.blog.
 
-![](./docs/screenshot.png)
+![](https://raw.githubusercontent.com/svendahlstrand/plugin-surprise-me/main/docs/screenshot.png)
 
 > See that 🎲 *Surprise me!* link in the screenshot above? Every time it's clicked, the visitor is taken to a random post in the archive. You can have this too! Just install this Micro.blog plug-in.
 
