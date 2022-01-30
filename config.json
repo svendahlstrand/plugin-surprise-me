@@ -1,0 +1,6 @@
+{
+  "params": {
+    "surprise_me_include_long_posts": true,
+    "surprise_me_include_short_posts": true
+  }
+}

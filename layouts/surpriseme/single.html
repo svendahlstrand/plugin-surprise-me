@@ -1,8 +1,20 @@
 {{ define "main" }}
+  {{ $exclude_short_posts := not $.Site.Params.surprise_me_include_short_posts }}
+  {{ $exclude_long_posts := not $.Site.Params.surprise_me_include_long_posts }}
+  {{ $posts := where .Site.Pages "Type" "post" }}
+
+  {{ if $exclude_short_posts }}
+    {{ $posts = where $posts "Title" "!=" "" }}
+  {{ end }}
+
+  {{ if $exclude_long_posts }}
+    {{ $posts = where $posts "Title" "==" "" }}
+  {{ end }}
+
   {{ .Content }}
 
   {{ $.Scratch.Set "index" 0 }}
-  {{ range (shuffle (where .Site.Pages "Type" "post")) }}
+  {{ range (shuffle $posts) }}
     {{ $.Scratch.Set "index" (add ($.Scratch.Get "index") 1) }}
     <a href="{{ .Permalink }}" class="surprise-me-link">{{ $.Scratch.Get "index" }}</a>
   {{ end }}

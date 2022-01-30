@@ -4,5 +4,17 @@
   "description": "Amuse your visitors by taking them to a totally random post on your blog.",
   "includes": [
     "surprise-me-head.html"
+  ],
+  "fields": [
+    {
+      "field": "params.surprise_me_include_long_posts",
+      "label": "Include long posts",
+      "type": "boolean"
+    },
+    {
+      "field": "params.surprise_me_include_short_posts",
+      "label": "Include short posts",
+      "type": "boolean"
+    }
   ]
 }
