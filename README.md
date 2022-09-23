@@ -8,6 +8,12 @@ Amuse your visitors by taking them to a totally random post on your Micro.blog.
 
 To get updates on this plug-in, [follow @sod on Micro.blog](https://micro.blog/sod).
 
+## Do you get value from Surprise me!? I'd love your support!
+
+Hey! It's me, Sven. Surprise me! and my other plug-ins are passion projects released to the world for free. That said, donations are always welcome if you get value from my work.
+
+[💸 Donate $10](https://dahlstrand.net/donate/) or any amount you're comfortable with. Thanks! 🙏
+
 ## Bells and whistles
 
 * 🪄 Magical address at `/surprise-me/`. (Like https://dahlstrand.net/surprise-me/.)
