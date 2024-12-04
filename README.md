@@ -23,7 +23,7 @@ Hey! It's me, Sven. Surprise me! and my other plug-ins are passion projects rele
 
 ## Get started
 
-Hello, fellow microblogger! 👋 Thanks for being here. This plug-in is available in the official directory, so the installation process is quick and easy.
+This plug-in is available in the official directory, so the installation process is quick and easy.
 
 ### Install the plug-in
 
